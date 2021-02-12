@@ -12,7 +12,7 @@
             "type": "string"
         },
         "Version": {
-            "description": "Desired Kubernetes version for your cluster. If you don't specify this value, the cluster uses the latest Amazon EKS version.",
+            "description": "Desired Kubernetes version for your cluster. If you don't specify this value, the cluster uses the latest Kubernetes version from Amazon EKS.",
             "type": "string"
         },
         "ResourcesVpcConfig": {
