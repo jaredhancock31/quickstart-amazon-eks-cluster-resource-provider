@@ -54,7 +54,7 @@ _Update requires_: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/l
 
 #### RoleArn
 
-Amazon Resource Name (ARN) of the AWS Identity and Access Management (IAM) role. This provides permissions for Amazon EKS to call other AWS APIs.
+Amazon Resource Name (ARN) of the AWS Identity and Access Management (IAM) role. This provides permissions for Amazon EKS to call other AWS API operations.
 
 _Required_: Yes
 
@@ -64,7 +64,7 @@ _Update requires_: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/l
 
 #### Version
 
-Desired Kubernetes version for your cluster. If you don't specify this value, the cluster uses the latest version from Amazon EKS.
+Desired Kubernetes version for your cluster. If you don't specify this value, the cluster uses the latest Kubernetes version from Amazon EKS.
 
 _Required_: No
 
