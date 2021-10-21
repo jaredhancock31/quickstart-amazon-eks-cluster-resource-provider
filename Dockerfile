@@ -8,8 +8,8 @@ COPY . /build
 
 WORKDIR /build
 
-RUN GOPROXY=direct go mod download
+RUN go mod download
 
-RUN GOPROXY=direct make -f Makefile.package package
+RUN make -f Makefile.package package
 
 CMD mkdir -p /output/ && mv /build/awsqs-eks-cluster.zip /output/
